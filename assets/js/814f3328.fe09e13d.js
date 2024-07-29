@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_gh_page=self.webpackChunkmy_gh_page||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Understanding Polkadot\u2019s Networking Protocol","permalink":"/blog/2024/07/30/understanding-polkadot-network","unlisted":false},{"title":"Welcome","permalink":"/blog/welcome","unlisted":false}]}')}}]);
