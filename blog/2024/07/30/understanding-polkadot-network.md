@@ -95,7 +95,7 @@ Light client nodes enable connection to a Substrate network with minimal hardwar
 
 ### Gossip Protocol
 
-![Gossip Protocole](./assets/protocol.png)
+![Gossip Protocol](./assets/protocol.png)
 
 The gossip protocol is a decentralized communication method used by nodes to share information, such as transactions and blocks, with their peers. This protocol ensures that all nodes have a consistent view of the blockchain by propagating data throughout the network efficiently.
 
