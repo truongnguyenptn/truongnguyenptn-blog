@@ -91,21 +91,43 @@ Archive nodes are similar to full nodes but store all past blocks with complete 
 
 Light client nodes enable connection to a Substrate network with minimal hardware requirements. They can be embedded into web-based applications, browser extensions, mobile device applications, or IoT devices. Light client nodes provide a runtime and access to the current state through RPC endpoints but do not participate in blockchain or network operations and do not store past blocks.
 
+## Node Communication and Maintenance
+
+### Gossip Protocol
+
+The gossip protocol is a decentralized communication method used by nodes to share information, such as transactions and blocks, with their peers. This protocol ensures that all nodes have a consistent view of the blockchain by propagating data throughout the network efficiently.
+
+### Consensus Mechanisms
+
+Polkadot uses Nominated Proof-of-Stake (NPoS) as its consensus mechanism. NPoS involves validators, nominators, collators, and fishermen to secure the network:
+
+- **Validators**: Secure the relay chain by staking DOT and validating proofs from collators.
+- **Nominators**: Back validators with their stake, helping to select reliable validators.
+- **Collators**: Maintain parachains by collecting transactions and producing proofs for validators.
+- **Fishermen**: Monitor the network and report malicious behavior.
+
+## Network Maintenance
+
+### Forkless Upgrades
+
+Polkadot supports forkless upgrades, allowing the network to upgrade its protocol without creating a new chain or disrupting the ongoing operations. This capability ensures that updates can be deployed smoothly, enhancing the network's functionality and security.
+
+### Governance
+
+Polkadot features an on-chain governance system where stakeholders can propose and vote on network upgrades and changes. This system includes the Council, Technical Committee, and referendums, providing a decentralized and transparent decision-making process.
+
+### Security Measures
+
+Polkadot's security model involves shared security for parachains, where the relay chain provides robust security to all connected parachains. This model allows parachains to focus on their specific use cases while relying on the relay chain for overall network security.
+
 ## Comparing Full Nodes and Light Client Nodes
 
-### 1. Full Nodes
-
-- **Storage Requirements:** Full nodes store a complete copy of the blockchain, which can be extensive. This means they require significant storage capacity.
-- **Functionality:** Full nodes perform a wide range of operations, including validating and relaying transactions, maintaining consensus, and serving data requests from other nodes and users.
-- **Security:** Full nodes offer a high level of security as they independently verify all transactions and blocks. This makes them less reliant on other nodes for data integrity.
-- **Network Participation:** Full nodes contribute to the overall network's health and security by participating actively in the blockchain's operations.
-
-### 2. Light Nodes
-
-- **Storage Requirements:** Light client nodes have minimal storage needs as they do not store the entire blockchain. Instead, they keep only the necessary information to verify the current state.
-- **Functionality:** Light clients are limited in functionality compared to full nodes. They primarily focus on verifying transactions and accessing blockchain data through RPC endpoints.
-- **Security:** While light clients are less secure than full nodes, they still offer sufficient security for most use cases by verifying only the necessary parts of the blockchain state.
-- **Network Participation:** Light clients do not contribute to the network's consensus or operations. They are designed for ease of access and integration into lightweight applications.
+| Feature                | Full Nodes                                                                                  | Light Nodes                                                                                     |
+|------------------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| **Storage Requirements** | Full nodes store a complete copy of the blockchain, which can be extensive. This means they require significant storage capacity. | Light client nodes have minimal storage needs as they do not store the entire blockchain. Instead, they keep only the necessary information to verify the current state. |
+| **Functionality**      | Full nodes perform a wide range of operations, including validating and relaying transactions, maintaining consensus, and serving data requests from other nodes and users. | Light clients are limited in functionality compared to full nodes. They primarily focus on verifying transactions and accessing blockchain data through RPC endpoints. |
+| **Security**           | Full nodes offer a high level of security as they independently verify all transactions and blocks. This makes them less reliant on other nodes for data integrity. | While light clients are less secure than full nodes, they still offer sufficient security for most use cases by verifying only the necessary parts of the blockchain state. |
+| **Network Participation** | Full nodes contribute to the overall network's health and security by participating actively in the blockchain's operations. | Light clients do not contribute to the network's consensus or operations. They are designed for ease of access and integration into lightweight applications. |
 
 ![Comparison Table](./assets/light-vs-full.png)
 
