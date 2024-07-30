@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_gh_page=self.webpackChunkmy_gh_page||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/truongnguyenptn-blog/blog","blogTitle":"Blog"}')}}]);
