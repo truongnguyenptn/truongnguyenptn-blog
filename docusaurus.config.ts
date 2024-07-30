@@ -75,7 +75,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/HongThaiPham",
+          href: "https://github.com/truongnguyenptn",
           label: "GitHub",
           position: "right",
         },
@@ -96,22 +96,6 @@ const config: Config = {
         {
           title: "Social",
           items: [
-            {
-              label: "Discord",
-              href: "https://discordapp.com/users/496849090018279464",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/leopham_it",
-            },
-            {
-              label: "LinkedIn",
-              href: "https://www.linkedin.com/in/leo-pham-1208/",
-            },
-            {
-              label: "Telegram",
-              href: "https://t.me/leopham_siro",
-            },
           ],
         },
         {
