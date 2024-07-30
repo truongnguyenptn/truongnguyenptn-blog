@@ -1,7 +1,7 @@
 ---
 title: Understanding Polkadot’s Networking Protocol
 description: Explore the fundamental concepts of Polkadot's networking protocol, from network types to node roles, in a simple and intuitive manner.
-date: 2024-07-28
+date: 2024-07-30
 permalink: understanding-polkadots-networking-protocol
 image: ./assets/polkadot-network.png
 authors: truongnguyenptn
