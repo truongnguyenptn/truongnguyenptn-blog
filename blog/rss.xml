@@ -4,7 +4,7 @@
         <title>Truongnguyenptn's Note Blog</title>
         <link>https://truongnguyenptn-blog.github.io/blog</link>
         <description>Truongnguyenptn's Note Blog</description>
-        <lastBuildDate>Sun, 28 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jul 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Understanding Polkadot’s Networking Protocol]]></title>
             <link>https://truongnguyenptn-blog.github.io/blog/2024/07/30/understanding-polkadot-network</link>
             <guid>https://truongnguyenptn-blog.github.io/blog/2024/07/30/understanding-polkadot-network</guid>
-            <pubDate>Sun, 28 Jul 2024 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 30 Jul 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Explore the fundamental concepts of Polkadot's networking protocol, from network types to node roles, in a simple and intuitive manner.]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" href="https://truongnguyenptn-blog.github.io/blog/2024/07/30/understanding-polkadot-network#introduction">​</a></h2>
 <p>Polkadot is not just another blockchain; it's a paradigm shift in blockchain architecture. Unlike traditional monolithic blockchains, Polkadot envisions a future of interconnected chains, ushering in a new era of cross-chain interoperability.</p>
