@@ -73,7 +73,7 @@ Blockchains require network nodes to be synchronized to present a consistent and
 
 ### Full Nodes
 
-![Archive Node](./assets/full-node.png)
+![Full Node](./assets/full-node.png)
 
 Full nodes are a critical part of the blockchain network infrastructure and are the most common node type. They store blockchain data and typically participate in common blockchain operations, such as authoring and validating blocks, receiving and verifying transactions, and serving data in response to user requests.
 
@@ -87,13 +87,15 @@ Archive nodes are similar to full nodes but store all past blocks with complete 
 
 ### Light Client Nodes
 
-![Archive Node](./assets/light-client-node.png)
+![Light Client Nodes](./assets/light-client-node.png)
 
 Light client nodes enable connection to a Substrate network with minimal hardware requirements. They can be embedded into web-based applications, browser extensions, mobile device applications, or IoT devices. Light client nodes provide a runtime and access to the current state through RPC endpoints but do not participate in blockchain or network operations and do not store past blocks.
 
 ## Node Communication and Maintenance
 
 ### Gossip Protocol
+
+![Gossip Protocole](./assets/protocol.png)
 
 The gossip protocol is a decentralized communication method used by nodes to share information, such as transactions and blocks, with their peers. This protocol ensures that all nodes have a consistent view of the blockchain by propagating data throughout the network efficiently.
 
@@ -104,19 +106,26 @@ Polkadot uses Nominated Proof-of-Stake (NPoS) as its consensus mechanism. NPoS i
 - **Validators**: Secure the relay chain by staking DOT and validating proofs from collators.
 - **Nominators**: Back validators with their stake, helping to select reliable validators.
 - **Collators**: Maintain parachains by collecting transactions and producing proofs for validators.
-- **Fishermen**: Monitor the network and report malicious behavior.
+
+![Nominated Proof-of-Stake](./assets/n-pos.png)
 
 ## Network Maintenance
 
 ### Forkless Upgrades
 
+![Forkless Upgrades](./assets/fork-less-upgrade.png)
+
 Polkadot supports forkless upgrades, allowing the network to upgrade its protocol without creating a new chain or disrupting the ongoing operations. This capability ensures that updates can be deployed smoothly, enhancing the network's functionality and security.
 
 ### Governance
 
+![Governance](./assets/governance.png)
+
 Polkadot features an on-chain governance system where stakeholders can propose and vote on network upgrades and changes. This system includes the Council, Technical Committee, and referendums, providing a decentralized and transparent decision-making process.
 
 ### Security Measures
+
+![Security Measures](./assets/security-measures.png)
 
 Polkadot's security model involves shared security for parachains, where the relay chain provides robust security to all connected parachains. This model allows parachains to focus on their specific use cases while relying on the relay chain for overall network security.
 
